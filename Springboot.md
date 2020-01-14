@@ -26,7 +26,6 @@
 
   标注这是springboot的启动类
   
-
 - 核心配置文件：spring.factores
 
 - springboot 所有自动配置都是在启动的时候扫描并加载：spring.factories 所有的自动配置类都在这里面，但是不一定生效，要判断条件是否称了，只要导入了对应的start，就有对应的启动器了，有了启动器，我们自动装配就会生效，然后就配置成功！
@@ -54,8 +53,6 @@
 - 使用@ConfigurationProperties(prefix = "persion")//指定配置文件中的对象，在配置文件中给类注入属性，如给mybatis的配置类注入url等属性
 - @Validated，数据校验  <u>@Validated //数据校验 JSR303校验</u>   @Notnull @Email等注解去校验
 - 
-
-
 
 
 
