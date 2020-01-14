@@ -52,7 +52,7 @@
 
 - 使用@ConfigurationProperties(prefix = "persion")//指定配置文件中的对象，在配置文件中给类注入属性，如给mybatis的配置类注入url等属性
 - @Validated，数据校验  <u>@Validated //数据校验 JSR303校验</u>   @Notnull @Email等注解去校验
-- 
+- 复杂类型封装
 
 
 
