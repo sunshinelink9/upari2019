@@ -52,11 +52,11 @@
 - 松散绑定，java中驼峰命名，配置文件中都是小写，用“-”分隔表示
 
 - 使用@ConfigurationProperties(prefix = "persion")//指定配置文件中的对象，在配置文件中给类注入属性，如给mybatis的配置类注入url等属性
-- @Validated，数据校验  <u>@Validated //数据校验 JSR303校验</u>   @Notnull @Email等注解去校验
+- @Validated，数据校验  <u>@Validated //数据校验 JSR303校验</u>   @Notnull @Email等注解去校验.
 - 
 
 
 
 
 
-### 5、
+### 5
